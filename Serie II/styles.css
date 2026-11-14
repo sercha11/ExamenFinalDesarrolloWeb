@@ -1,0 +1,108 @@
+:root {
+  --cafe: #7a2e48;
+  --cafe-claro: #c0506f;
+  --crema: #fdf5f7;
+  --arena: #f8dde5;
+  --borde: #efd3db;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--crema);
+  color: #3a2e27;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  color: var(--cafe);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.hero {
+  background-color: var(--cafe);
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+}
+
+.sobretitulo {
+  margin: 0 0 8px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--arena);
+}
+
+.frase {
+  font-size: 18px;
+  margin: 0;
+}
+
+.seccion h3 {
+  color: var(--cafe-claro);
+  font-size: 20px;
+  margin: 30px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--arena);
+}
+
+.nota {
+  text-align: center;
+  color: #8a6b75;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.seccion {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+
+.seccion h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabla th,
+.tabla td {
+  border-bottom: 1px solid var(--borde);
+  padding: 12px;
+  text-align: left;
+}
+
+.tabla th {
+  background-color: var(--arena);
+  color: var(--cafe);
+}
+
+.tabla tbody tr:nth-child(even) {
+  background-color: var(--crema);
+}
+
+.precio {
+  font-weight: bold;
+  color: var(--cafe-claro);
+  white-space: nowrap;
+}
