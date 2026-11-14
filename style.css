@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eeeeee;
+  color: #222222;
+}
+
+h1 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.topbar {
+  background: #222222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar a {
+  color: #bbbbbb;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.topbar a.activo,
+.topbar a:hover {
+  color: white;
+}
+
+.contenedor {
+  width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.angosto {
+  width: 500px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.encabezado h1 {
+  margin: 0;
+}
+
+.filtro {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #222222;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  white-space: nowrap;
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.btn {
+  color: white;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.btn-azul { background: #2563eb; }
+.btn-rojo { background: #dc2626; }
+.btn-gris { background: #6b7280; }
+.btn-verde { background: green; }
+.btn-off  { background: #cccccc; color: #666666; }
+
+.en-linea {
+  display: inline;
+}
+
+td .btn {
+  margin-right: 5px;
+}
+
+.badge {
+  color: white;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.verde   { background: green; }
+.naranja { background: orange; }
+
+.alerta {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.ok    { background: #c8f7c5; }
+.error { background: #f7c5c5; }
+
+.formulario label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.fila {
+  display: flex;
+  gap: 10px;
+}
+
+.fila label {
+  flex: 1;
+}
